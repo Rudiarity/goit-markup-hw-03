@@ -204,7 +204,8 @@ img {
 
 }
 .section-four{
-    
+    padding: 120px 0 120px 0;
+
 }
 .title-team{
     color: #2E2F42;
@@ -223,7 +224,8 @@ img {
 }
 
 .block_person{
-    padding: 32px 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
 }
 .images-list{
@@ -290,16 +292,25 @@ color:#4D5AE5;
 
 .portfolio{
 
+ display: flex;
+ flex-wrap: wrap;
+ column-gap: 24px;
+ row-gap: 48px;
+  }
+  .product-recenzive {
+    padding: 32px 16px ;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
+  }
+
  
-  
-}
 
 .portfolio-item{
     width: 360px;
     height: 420px;
     flex-shrink: 0;
     display: inline-block;
-    border: 1px solid #e7e9fc;
     background:  #FFF;
     margin-bottom: 48px;
     gap: 24px;
