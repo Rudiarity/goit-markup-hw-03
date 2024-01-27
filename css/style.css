@@ -77,10 +77,9 @@ img {
 
 .section-first{
     background-color:#2E2F42;
-    width: 1440px;
-    height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
+    
    
    
     
@@ -113,13 +112,14 @@ img {
         line-height: 1.07 ;
         font-weight: 700;
         letter-spacing: 0.02em ;
-        width: 120px;
+        
         
          margin-right: auto;
          margin-left: auto;
          display: block;
-        
+        margin-bottom: 48px;
          max-width: 496px;
+         max-height: 120px;
          
         
         
@@ -174,8 +174,8 @@ img {
 }
 
 
-.visually-hidden{
-    position: absolute;
+.visually-hidden {
+position: absolute;
 width: 1px;
 height: 1px;
 margin: -1px;
