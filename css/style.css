@@ -172,6 +172,8 @@ img {
     width: calc((100% - 72px) / 4); 
 }
 
+.header-visyal .visually-hidden
+  
 
 
 .title-terms{
@@ -194,6 +196,7 @@ img {
 .section-third{
     background-color:#F4F4FD;
     padding: 120px 0 ;
+    
     
 
 }
