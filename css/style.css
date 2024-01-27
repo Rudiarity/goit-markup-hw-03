@@ -154,7 +154,9 @@ img {
     background-color:#404BBF;
 }
 
-
+.section-second{
+    padding: 120px 0;
+}
 .list-one{
     display: flex;
     align-items: flex-start;
@@ -166,7 +168,9 @@ img {
 
 
 }
-
+.item_one{
+    width: calc((100% - 72px) / 4); 
+}
 
 
 
