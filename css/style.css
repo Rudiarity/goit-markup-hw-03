@@ -173,10 +173,14 @@ img {
     width: calc((100% - 72px) / 4); 
 }
 
-.header-visyal {
-    visibility: hidden;
+
+.visually-hidden{
+    position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
-  
 
 
 .title-terms{
@@ -223,9 +227,9 @@ img {
 
 }
 
-.block_person{
-    padding-top: 32px;
-    padding-bottom: 32px;
+.block_peson{
+    padding-top:32px;
+    padding-bottom:32px;
 
 }
 .images-list{
