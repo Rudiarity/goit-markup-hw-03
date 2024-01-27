@@ -21,8 +21,11 @@ a{
     text-decoration: none;
     font-style: normal;
   
-  
 }
+img {
+    display: block;
+
+ } 
 .container{
     width: 1158px;
     padding:0px 15px;
