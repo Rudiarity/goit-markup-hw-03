@@ -79,8 +79,9 @@ img {
     background-color:#2E2F42;
     width: 1440px;
     height: 600px;
-    padding-top: 188px; 
+    padding-top: 188px;
     padding-bottom: 188px;
+   
    
     
    
@@ -172,7 +173,9 @@ img {
     width: calc((100% - 72px) / 4); 
 }
 
-.header-visyal .visually-hidden
+.header-visyal {
+    visibility: hidden;
+}
   
 
 
@@ -220,7 +223,7 @@ img {
 }
 
 .block_person{
-    padding: 32px 0;
+    padding: 32px 0px;
 
 }
 .images-list{
@@ -237,7 +240,7 @@ img {
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     width: calc((100% - 72px) / 4);
-    
+
     
 
 }
