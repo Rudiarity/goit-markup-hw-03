@@ -5,8 +5,7 @@
  font-family: Roboto,sans-serif;
  color:#434455;
  background-color:#FFFFFF;
- box-sizing: border-box;
- margin: 0px;
+ 
  }
  p,h1,h2,h3,h4,h5,h6{
    margin:  0px;
@@ -42,15 +41,12 @@ img {
     align-items: center;
 }
 .address-list{
-    padding: 24px ;
+    
     display: flex;
     gap: 40px;
+}
+.main_contact{
     margin-left: auto;
-
-    
-    
-    
-
 }  
 .contacts-link{
     color:#434455;
@@ -160,11 +156,7 @@ img {
 }
 .list-one{
     display: flex;
-    align-items: flex-start;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    
     gap: 24px;
 
 
@@ -226,11 +218,9 @@ overflow: hidden;
     line-height: 1.11 ;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
-    margin-right: auto;
-    margin-left: auto;
+    
     margin-bottom: 72px;
-    display: block;
+   
 
 }
 
@@ -242,9 +232,7 @@ overflow: hidden;
 .images-list{
     display: flex;
     gap: 24px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 120px;
+   
 }
 .images{
     background-color: #FFFFFF;
@@ -277,8 +265,7 @@ overflow: hidden;
     text-align: center;
 }
 .header{
-    width: 1440px;
-    height: 72px;
+
     border-bottom: 1px solid #e7e9fc ;
     }
 
@@ -319,12 +306,7 @@ color:#4D5AE5;
 
 .portfolio-item{
     width: 360px;
-    height: 420px;
-    flex-shrink: 0;
-    display: inline-block;
-    background:  #FFF;
-    margin-bottom: 48px;
-    gap: 24px;
+   
     
     
 }
@@ -339,9 +321,8 @@ color:#4D5AE5;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
-    padding: 0px 16px;
+    
 }
 .recenzive{
     color: #434455;
@@ -349,14 +330,13 @@ color:#4D5AE5;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding: 0px 16px;
-    padding-bottom: 32px;
+   
 }
 
 
 .footer{
  background-color: #2E2F42;
- color: #FFF;
+
  
  padding: 100px 0;
 }
@@ -366,6 +346,7 @@ color:#4D5AE5;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em ;
+    max-width: 264px;
 }
 .logo-footer{
     color: #4D5AE5;
@@ -376,7 +357,7 @@ color:#4D5AE5;
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    padding-top: 101.5px;
+    
     display: inline-block;
     margin-bottom: 16px;
 }
